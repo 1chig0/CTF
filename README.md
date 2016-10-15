@@ -25,13 +25,21 @@ FairPlay密码解密工具：
   Usage：
   
   Input the key:The quick brown fox jumps over the lazy dog
+  
   Input the omit:j
+  
   ['t', 'h', 'e', 'q', 'u']
+  
   ['i', 'c', 'k', 'b', 'r']
+  
   ['o', 'w', 'n', 'f', 'x']
+  
   ['m', 'p', 's', 'v', 'l']
+  
   ['a', 'z', 'y', 'd', 'g']
+  
   Input your passwd:smzdodcikmodcismzd
+  
   playfairisfairplay
   
   首先输入密钥，接着输入需要去掉的字母，因为这个正方形方阵只有25个，所以可以通过观察加密的字符串。如果没有j出现，就得出要在方阵里面把j去掉。
