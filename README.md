@@ -23,6 +23,7 @@ FairPlay.py
 FairPlay密码解密工具：
 
   Usage：
+  
   Input the key:The quick brown fox jumps over the lazy dog
   Input the omit:j
   ['t', 'h', 'e', 'q', 'u']
