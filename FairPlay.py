@@ -18,7 +18,7 @@ def DealKey(key,omit):
 
 		for i in range(97,123):
 
-			if chr(i) != omit and result.find(chr(i)) != -1:
+			if chr(i) != omit and result.find(chr(i)) == -1:
 
 					result = result + chr(i)
 
@@ -80,7 +80,7 @@ def DealPw(pw):
 
 	pw = pw.lower()
 
-	pw = pw.replace('q','')
+#	pw = pw.replace('q','')
 
 	if not pw.isalpha():
 
@@ -180,7 +180,15 @@ def main():
 
 	key = DealKey(key,omit)
 
-	key = ImportKeyRow(key)
+	option = raw_input('Row or Col:(r or c):')
+
+	if option == 'r':
+
+		key = ImportKeyRow(key)
+
+	else:
+
+		key = ImportKeyCol(key)
 
 	pw = raw_input('Input your passwd:')
 
@@ -195,9 +203,6 @@ def main():
 if __name__ == '__main__':
 
 	main()
-
-
-
 
 
 '''
