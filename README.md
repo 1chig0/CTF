@@ -1,7 +1,9 @@
 # CTF
 CtfTools
 
-Defence.py
+
+
+@Defence.py
 
 栅栏密码解密工具：
 
@@ -11,14 +13,21 @@ Defence.py
   2.指定某个栅栏数：
     Usage: DeFence.py -c content -n (A number)
 
-KeyBoard.py
+
+
+
+@KeyBoard.py
 
 键盘密码解密工具：
 
   Usage: KeyBoardPw.py -c (your content)
 
 
-FairPlay.py
+
+
+
+
+@FairPlay.py
 
 FairPlay密码解密工具：
 
@@ -58,7 +67,7 @@ FairPlay密码解密工具：
   
   
  
- Bacon.py
+@Bacon.py
  
  培根密码解密工具：
  
@@ -71,4 +80,26 @@ FairPlay密码解密工具：
    注意，很多情况下，-a参数的值可能要跟-b参数的值调换一下看看是否的出了自己所要的结果。请自行检查。
  
  
- 
+
+@MoresCode.py
+
+  摩斯密码解密工具：
+  
+  MorseCode.py
+  
+  直接输入摩斯电码即可，注意，本脚本主要是以空格来分开。若有特殊情况请自行修改代码。
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
