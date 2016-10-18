@@ -108,35 +108,6 @@ FairPlay密码解密工具：
   输入一个矩阵的格式是 'x1,x2;y1,y2;...'
   
   python Hill.py -k '1,2;0,1' -p dloguszijluswogany
-  
-  key is :
-  [[ 1.  0.]
-   [-2.  1.]]
-  ------------------------------------------
-  password matrix is:
-  [[ 4 12]
-   [15  7]
-   [21 19]
-   [26  9]
-   [10 12]
-   [21 19]
-   [23 15]
-   [ 7  1]
-   [14 25]]
-  ------------------------------------------
-  The result matrix is:
-  [[-20.  12.]
-   [  1.   7.]
-   [-17.  19.]
-   [  8.   9.]
-   [-14.  12.]
-   [-17.  19.]
-   [ -7.  15.]
-   [  5.   1.]
-   [-36.  25.]]
-  ------------------------------------------
-  The final result is:flagishillissoeapy
-  meizhi@ubuntu:~/ctf$ python Hill.py -k '1,2;0,1' -p dloguszijluswogany
   key is :
   [[ 1.  0.]
    [-2.  1.]]
