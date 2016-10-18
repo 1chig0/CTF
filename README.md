@@ -138,8 +138,20 @@ FairPlay密码解密工具：
   flagishillissoeapy
 
 
+@ColumnSub.py
+ 
+ 列置换转换工具:
+ 
+ Usage:
+ 
+ python ColumnSub.py -c OCU{CFTELXOUYDECTNGAHOHRNFIENM}IOTA -o 2.txt
+ 
+ The result is saved as 2.txt
+ 
+ 可根据自己的需要改变改变输出文件的名字
+ 
+ 此工具是列出所有可能的排列（不是那种单纯的暴力全排列）
 
-  
   
   
   
